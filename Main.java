@@ -1,5 +1,6 @@
 /**
- * Program description.
+ * The program has specific variables that can be changed depending on the person.
+ * It was made to make filling out authorization for employment information easier.
  * @author Volodymyr Turchanskyi
  */
 public class Main
@@ -45,15 +46,15 @@ public class Main
 		System.out.println("║  .----.    .----.     Given Name");
 		System.out.println("║ (   ^  \\  /  ^   )    " + givenName);
 		System.out.println("║        |  |           USCIS#         Category   Card#");
-		System.out.println("║       _/  \\_          "+usCIS1+"-"+usCIS2+"-"+usCIS3+"    "+category+"        "+cardNum);
+		System.out.println("║       _/  \\_          " + usCIS1 + "-" + usCIS2 + "-" + usCIS3 + "    " + category + "        " + cardNum);
 		System.out.println("║      (_    _)         Country of Birth");
-		System.out.println("║   ,    `--`    ,      "+country);
+		System.out.println("║   ,    `--`    ,      " + country);
 		System.out.println("║   \\'-.______.-'/      Terms and Conditions");
-		System.out.println("║    \\          /       "+termsAndConditions);
+		System.out.println("║    \\          /       " + termsAndConditions);
 		System.out.println("║     '.--..--.'        Date of Birth   Sex");
-		System.out.println("║       `\"\"\"\"\"`         "+dateOfBirthDay+" "+dateOfBirthMonth+" "+dateOfBirthYear+"     "+sex);
-		System.out.println("║                       Valid From:     "+validFrom1+"/"+validFrom2+"/"+validFrom3);
-		System.out.println("║                       Card Expires:   "+cardExpires1+"/"+cardExpires2+"/"+cardExpires3);
+		System.out.println("║       `\"\"\"\"\"`         " + dateOfBirthDay+" " + dateOfBirthMonth + " " + dateOfBirthYear + "     " + sex);
+		System.out.println("║                       Valid From:     " + validFrom1 + "/" + validFrom2 + "/" + validFrom3);
+		System.out.println("║                       Card Expires:   " + cardExpires1 + "/" + cardExpires2 + "/" + cardExpires3);
 		System.out.println("║ ascii art by: jgs     NOT VALID FOR REENTRY TO U.S.");
 		System.out.println("╚══════════════════════════════════════════════════════════════════════");
 		//ascii art credit: http://www.oocities.org/spunk1111/bodypart.htm
